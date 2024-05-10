@@ -12,40 +12,7 @@
 ### Features
 
 - Latest and Updated Login Pages.
-  - Facebook
-  - Instagram
-  - Google
-  - Microsoft
-  - Netflix
-  - PayPal
-  - Steam
-  - Twitter
-  - Playstation
-  - Tiktok
-  - Twitch
-  - Pinterest
-  - Snapchat 
-  - LinkedIn 
-  - Ebay
-  - Quora
-  - Protonmail
-  - Spotify
-  - Reddit
-  - Adobe
-  - DeviantArt
-  - Badoo
-  - Origin
-  - Dropbox
-  - Yahoo
-  - Wordprogress
-  - Yandex
-  - StackoverFlow
-  - Vk
-  - XBOX
-  - Github
-  - Gitlab
-  - Mediafire
-  - Airbnb
+  - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 - Mask URL Support 
 - Beginners Friendly
 - Tunneling Options
@@ -78,21 +45,22 @@ $ bash 69phisher.sh
 ```
 - ### Dependencies
 
-**`69phisher`** requires following programs to run properly - 
+**`437Phisher`** requires following programs to run properly - 
 - `php`
 - `wget`
 - `curl`
 - `git`
 
-> All the dependencies will be installed automatically when you run `69phisher` for the first time.
+> All the dependencies will be installed automatically when you run `437Phisher` for the first time.
 
 > Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
 ### Special Thanks :
 
 - [**htr-tech**](https://github.com/htr-tech)
+- [**Akshay-Arjun**]
+(https://github.com/Akshay-Arjun)
 
 ## Star History
-
 [![Star History Chart](https://api.star-history.com/svg?repos=Akshay-Arjun/69phisher&type=Date)](https://star-history.com/#Akshay-Arjun/69phisher&Date)
 
 ### Disclaimer
