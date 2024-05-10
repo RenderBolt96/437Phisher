@@ -2,12 +2,12 @@
 
 
 ##   69phisher 	: 	Automated Phishing Tool
-##   Author 	: 	Akshay 
-##   Version 	: 	1.2
+##   Author 	: 	RenderBolt
+##   Version 	: 	1.0
 ##   Github 	: 	https://github.com/Akshay-Arjun
 ## Modified version of :
 ##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
+##   Author 	: 	Akshay-Arjun 
 ##   Version 	: 	2.2
 ##   Github 	: 	https://github.com/htr-tech  
 
@@ -78,10 +78,10 @@ ${ORANGE} | || |   |___ /  |___  || '_ \ | |    (_)     | |
 ${ORANGE} | || |_    |_ \     / / | |_) || |__   _  ___ | |__    ___  _ __ 
 ${ORANGE} |__   _|  ___) |   / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
 ${ORANGE}    |_|   |____/   /_/   | |    | | | || |\__ \| | | ||  __/| |   	
-${ORANGE}   ${RED}Version : 1.2   |_|    |_| |_||_||___/|_| |_| \___||_|   
+${ORANGE}   ${RED}Version : 1.0   |_|    |_| |_||_||___/|_| |_| \___||_|   
    
 
-${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Akshay-Arjun ${WHITE}
+${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
 EOF
 }
         
@@ -90,9 +90,9 @@ banner_small() {
 	cat <<- "EOF"
 			                     ,,
 			     __            o-°°|\_____/)
-			(___()'`; 69phisher \_/|_)     )
-			/,    /`               \  __  / 
-			\\"--\\                (_/ (_/  		
+			(___()'`;           \_/|_)     )
+			/,    /`  437Phisher   \  __  / 
+			\\"--\\ Respect Etanie (_/ (_/  		
 		
 		Version : 1.2
 	EOF
@@ -189,7 +189,7 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}Akshay Arjun
+		${GREEN}Author   ${RED}:  ${ORANGE}RenderBolt
 		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/Akshay-Arjun
 		${GREEN}Social   ${RED}:  ${CYAN}https://bit.ly/AKSHAYARJUN
 		${GREEN}Version  ${RED}:  ${ORANGE}1.0
@@ -273,7 +273,7 @@ capture_data() {
 
 
 ## DON'T COPY PASTE WITHOUT CREDIT DUDE :')
-## Credits HTR-TECH
+## Credits HTR-TECH AKSHAY-ARJUN
 
 ## Start Cloudflared
 start_cloudflared() { 
