@@ -12,7 +12,40 @@
 ### Features
 
 - Latest and Updated Login Pages.
-
+  - Facebook
+  - Instagram
+  - Google
+  - Microsoft
+  - Netflix
+  - PayPal
+  - Steam
+  - Twitter
+  - Playstation
+  - Tiktok
+  - Twitch
+  - Pinterest
+  - Snapchat 
+  - LinkedIn 
+  - Ebay
+  - Quora
+  - Protonmail
+  - Spotify
+  - Reddit
+  - Adobe
+  - DeviantArt
+  - Badoo
+  - Origin
+  - Dropbox
+  - Yahoo
+  - Wordprogress
+  - Yandex
+  - StackoverFlow
+  - Vk
+  - XBOX
+  - Github
+  - Gitlab
+  - Mediafire
+  - Airbnb
 - Mask URL Support 
 - Beginners Friendly
 - Tunneling Options
