@@ -10,34 +10,36 @@
   <p align="center">
 
 ### Features
-
 - Latest and Updated Login Pages.
-  - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 - Mask URL Support 
 - Beginners Friendly
 - Tunneling Options
   - Localhost (visit 127.0.0.1:8080)
   - Cloudflared (default and automated)
 
-### Screenshots 
+### Creatable Phishing Links
+- Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
+
+### Screenshots
+
 #### Menu
 ![image](https://user-images.githubusercontent.com/68991993/209860283-13d3af06-7658-4216-93a5-478fbebe8259.png)
 
 #### Masked Url:
 ![image](https://user-images.githubusercontent.com/68991993/209860342-6e9727c9-d940-4e05-b870-e61114c5ab64.png)
-#### Share the link and grab details
+#### Share the Link and Grab Details
 ![image](https://user-images.githubusercontent.com/68991993/209860605-5bf5b052-b05d-4780-9217-4350398cfc11.png)
 
 
 
 ### Installation
 
-##### Just, Clone this repository -
+##### Just, Clone this Repository -
 ```sh
 $ git clone https://github.com/Akshay-Arjun/69phisher.git
 ```
 
-##### Change to cloned directory -
+##### Change to Cloned Directory -
 ```sh
 $ cd 69phisher
 $ chmod 777 69phisher.sh
