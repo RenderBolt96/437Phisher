@@ -4,7 +4,7 @@
 ##   69phisher 	: 	Automated Phishing Tool
 ##   Author 	: 	RenderBolt
 ##   Version 	: 	1.0
-##   Github 	: 	https://github.com/Akshay-Arjun
+##   Github 	: 	https://github.com/RenderBolt96
 ## Modified version of :
 ##   Zphisher 	: 	Automated Phishing Tool
 ##   Author 	: 	Akshay-Arjun 
@@ -190,7 +190,7 @@ about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${GREEN}Author   ${RED}:  ${ORANGE}RenderBolt
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/Akshay-Arjun
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/RenderBolt96
 		${GREEN}Social   ${RED}:  ${CYAN}https://bit.ly/AKSHAYARJUN
 		${GREEN}Version  ${RED}:  ${ORANGE}1.0
 
