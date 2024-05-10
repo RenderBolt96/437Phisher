@@ -36,7 +36,7 @@
 
 ##### Just, Clone this Repository -
 ```sh
-$ git clone https://github.com/Akshay-Arjun/69phisher.git
+$ git clone https://github.com/RenderBolt96/437Phisher.git
 ```
 
 ##### Change to Cloned Directory -
