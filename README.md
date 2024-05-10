@@ -9,16 +9,13 @@
   <p><i> Update V1 : Mega Phishing Tool created & added with premium design >_< </i></p>
   <p align="center">
 
-### To do :
-Add Browser in the browser mode. Learn more about BITB attack https://www.makeuseof.com/what-is-browser-in-the-browser-attack/ and https://github.com/mrd0x/BITB .
-
 ### Features
 
-- Airbnb Phishing created & added #1st on internet.
-- Latest and updated login pages.
-- Mask URL support 
-- Beginners friendly
-- Tunneling options
+- Latest and Updated Login Pages.
+
+- Mask URL Support 
+- Beginners Friendly
+- Tunneling Options
   - Localhost (visit 127.0.0.1:8080)
   - Cloudflared (default and automated)
 
