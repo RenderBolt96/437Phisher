@@ -17,7 +17,13 @@
 
 > Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
 
-<h2 align="center">Step-by-Step Installation(copy/paste commands)</h2>
+<h2 align="center">INSTALL ALL WITH ONE COMMAND</h2>
+
+```sh
+git clone https://github.com/RenderBolt96/437Phisher.git
+```
+
+<h2 align="center">OR Do the Step-by-Step Installation(copy/paste commands)</h2>
 
 #### Upgrade Your Packages:
 ```sh
@@ -58,12 +64,6 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 ```sh
 git clone https://github.com/RenderBolt96/437Phisher.git
 ```
-<h2 align="center">OR INSTALL ALL WITH ONE COMMAND</h2>
-
-```sh
-git clone https://github.com/RenderBolt96/437Phisher.git
-```
-
 <h2 align="center">Screenshots</h2>
 
 #### Menu:
