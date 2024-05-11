@@ -15,6 +15,8 @@
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 
+<h2 align="center">Step-by-Step Installation(copy/paste commands)</h2>
+
 #### Upgrade Your Packages:
 ```sh
 apt upgrade
