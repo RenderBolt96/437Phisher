@@ -21,7 +21,7 @@
 ![image](https://github.com/RenderBolt96/437Phisher/blob/fe84f1fd862dcaea3bb987f3af573778994ec36d/Screenshots/Untitled%20design_20240510_223723_0000.png)
 
 #### Menu:
-![image](https://user-images.githubusercontent.com/68991993/209860283-13d3af06-7658-4216-93a5-478fbebe8259.png)
+![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
 
 #### Grabbed Details:
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
