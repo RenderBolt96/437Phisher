@@ -5,10 +5,12 @@
   <p align="center">
 
 ### Features
-- Latest and Updated Login Pages
-- Mask URL Support 
-- Beginners Friendly
-- Tunneling Options
+- 📋Latest and Updated Login Pages📋
+  - 📝Constantly Updated📝
+- 🥸Mask URL Support🥸
+- 🔥Beginners Friendly🔥
+  - ✅Easy to Use✅
+- 🔎Tunneling Options🔎
   - Localhost (visit 127.0.0.1:8080)
   - Cloudflared (default and automated)
 
