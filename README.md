@@ -30,7 +30,6 @@
 
 
 ### Installation
-
 ```sh
 $ pkg update && pkg upgrade
 $ git clone https://github.com/RenderBolt96/437Phisher.git
@@ -42,7 +41,6 @@ $ chmod 777 69phisher.sh
 $ bash 69phisher.sh
 ```
 - ### Dependencies
-
 **`437Phisher`** requires following programs to run properly - 
 - `php`
 - `wget`
