@@ -15,6 +15,8 @@
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 
+> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
+
 <h2 align="center">Step-by-Step Installation(copy/paste commands)</h2>
 
 #### Upgrade Your Packages:
@@ -73,7 +75,6 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 #### Grabbed Details:
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
 
-> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
 ### Special Thanks :
 
 - [**htr-tech**](https://github.com/htr-tech)
