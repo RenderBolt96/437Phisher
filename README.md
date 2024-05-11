@@ -29,24 +29,23 @@
 
 ### Installation
 
-##### Just, Clone this Repository -
 ```sh
+$ pkg update && pkg upgrade
 $ git clone https://github.com/RenderBolt96/437Phisher.git
 ```
 
-##### Change to Cloned Directory -
 ```sh
-$ cd 69phisher
+$ cd 437Phisher
 $ chmod 777 69phisher.sh
 $ bash 69phisher.sh
 ```
 - ### Dependencies
 
 **`437Phisher`** requires following programs to run properly - 
-- `php`
-- `wget`
-- `curl`
-- `git`
+- `php`  ($ pkg install php)
+- `wget` ($ pkg install wget)
+- `curl` ($ pkg install curl)
+- `git`  ($ pkg install git)
 
 > All the dependencies will be installed automatically when you run `437Phisher` for the first time.
 
