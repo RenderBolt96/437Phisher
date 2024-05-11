@@ -29,7 +29,7 @@
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
 
 
-### Installation(these steps explain the process, starting from when termux is FIRST installed):
+### Installation #####(these steps explain the process, starting from when termux is FIRST installed):
 
 #### Share the Generated Link and Grab Details:
 ```sh
