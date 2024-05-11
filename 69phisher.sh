@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-##   69phisher 	: 	Automated Phishing Tool
+##   437Phisher 	: 	Automated Phishing Tool
 ##   Author 	: 	RenderBolt
 ##   Version 	: 	1.0
 ##   Github 	: 	https://github.com/RenderBolt96
@@ -74,7 +74,7 @@ banner() {
 	cat <<- EOF
 		
 ${CYAN}  _  _     _____   _____  _ __   _      _       _                 
-${CYAN} | || |   |___ /  |___  || '_ \ | |    (_)     | |                      
+${CYAN} | || |   |___ /  |___  || '_ \ | |    (_)     | |                
 ${CYAN} | || |_    |_ \     / / | |_) || |__   _  ___ | |__    ___  _ __ 
 ${CYAN} |__   _|  ___) |   / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
 ${CYAN}    |_|   |____/   /_/   | |    | | | || |\__ \| | | ||  __/| |   	
