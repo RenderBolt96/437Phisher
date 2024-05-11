@@ -1,4 +1,4 @@
-<h2 align="center">437phisher</h2>
+<h2 align="center">437Phisher</h2>
 
   <p><i>A beginners friendly, Automated phishing tool with 30+ types that are easy to use.</i></p>
   <p><i> Update V1 : Mega Phishing Tool created & added with premium design >_< </i></p>
