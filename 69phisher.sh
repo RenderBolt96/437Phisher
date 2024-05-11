@@ -8,8 +8,8 @@
 ## Modified version of :
 ##   Zphisher 	: 	Automated Phishing Tool
 ##   Author 	: 	Akshay-Arjun 
-##   Version 	: 	2.2
-##   Github 	: 	https://github.com/htr-tech  
+##   Version 	: 	1.2
+##   Github 	: 	https://github.com/Akshay-Arjun  
 
 
 ## If you Copy Then Give the credits :)
@@ -73,12 +73,13 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 		
-${ORANGE}  _  _     _____   _____  _ __   _      _       _                 
-${ORANGE} | || |   |___ /  |___  || '_ \ | |    (_)     | |                      
-${ORANGE} | || |_    |_ \     / / | |_) || |__   _  ___ | |__    ___  _ __ 
-${ORANGE} |__   _|  ___) |   / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
-${ORANGE}    |_|   |____/   /_/   | |    | | | || |\__ \| | | ||  __/| |   	
-${ORANGE}   ${RED}Version : 1.0   |_|    |_| |_||_||___/|_| |_| \___||_|   
+${CYAN}  _  _     _____   _____  _ __   _      _       _                 
+${CYAN} | || |   |___ /  |___  || '_ \ | |    (_)     | |                      
+${CYAN} | || |_    |_ \     / / | |_) || |__   _  ___ | |__    ___  _ __ 
+${CYAN} |__   _|  ___) |   / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
+${CYAN}    |_|   |____/   /_/   | |    | | | || |\__ \| | | ||  __/| |   	
+${CYAN}                         |_|    |_| |_||_||___/|_| |_| \___||_|   
+${CYAN} ${RED}Version : 1.0
    
 
 ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
