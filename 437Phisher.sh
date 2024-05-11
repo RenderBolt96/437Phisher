@@ -78,10 +78,10 @@ ${CYAN} | || |  |___ /|___  || '_ \ | |    (_)     | |
 ${CYAN} | || |_   |_ \   / / | |_) || |__   _  ___ | |__    ___  _ __ 
 ${CYAN} |__   _| ___) | / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
 ${CYAN}    |_|  |____/ /_/   | |    | | | || |\__ \| | | ||  __/| |   	
-${CYAN}                     |_|    |_| |_||_||___/|_| |_| \___||_|   
+${CYAN}                      |_|    |_| |_||_||___/|_| |_| \___||_|   
 ${CYAN} ${RED}Version : 1.0
    
-
+${RED}[${MAGENTA}-${RED}]${CYAN} The Title Will ONLY DISPLAY PROPERLY If The Screen Is Turned HORZONTALLY!!! ${WHITE}
 ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
 EOF
 }
@@ -89,13 +89,12 @@ EOF
 ## Small Banner
 banner_small() {
 	cat <<- "EOF"
-			                     ,,
-			     __            o-°°|\_____/)
-			(___()'`;           \_/|_)     )
-			/,    /`  437Phisher   \  __  / 
-			\\"--\\ Respect Etanie (_/ (_/  		
-		
-		Version : 1.0
+${MAGENTA}		                     ,,
+${MAGENTA}		     __            o-°°|\_____/)
+${MAGENTA}		(___()'`;           \_/|_)     )
+${MAGENTA}		/,    /`  437Phisher   \  __  / 
+${MAGENTA}		\\"--\\ Respect Etanie (_/ (_/  		
+${MAGENTA}  ${RED}Version : 1.0
 	EOF
 }
 
