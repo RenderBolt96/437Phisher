@@ -44,10 +44,10 @@ $ bash 69phisher.sh
 - ### Dependencies
 
 **`437Phisher`** requires following programs to run properly - 
-- `php`  ($ pkg install php)
-- `wget` ($ pkg install wget)
-- `curl` ($ pkg install curl)
-- `git`  ($ pkg install git)
+- `php`
+- `wget`
+- `curl`
+- `git`
 
 > All the dependencies will be installed automatically when you run `437Phisher` for the first time.
 
