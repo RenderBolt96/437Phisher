@@ -16,7 +16,7 @@
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 <h2 align="center"></h2>
 
-##<p align="center">Screenshots</p>
+<h2 align="center">Screenshots</h2>
 
 #### Title Screen:
 
