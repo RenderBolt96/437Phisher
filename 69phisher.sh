@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-##   437Phisher 	: 	Automated Phishing Tool
+##   437Phisher 	: 	Automated Phishing Tool+
 ##   Author 	: 	RenderBolt
 ##   Version 	: 	1.0
 ##   Github 	: 	https://github.com/RenderBolt96
