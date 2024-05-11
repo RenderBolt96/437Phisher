@@ -3,7 +3,7 @@
   <p><i>A beginners friendly, Automated phishing tool with 30+ types that are easy to use.</i></p>
   <p><i> Update V1 : Mega Phishing Tool created & added with premium design >_< </i></p>
   <p align="center">
-  <p align="center">
+
 ### Features
 - Latest and Updated Login Pages
 - Mask URL Support 
@@ -14,7 +14,7 @@
 
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
-
+ <p align="center">
 ### Screenshots
 
 #### Title Screen:
