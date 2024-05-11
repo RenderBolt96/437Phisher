@@ -463,7 +463,7 @@ main_menu() {
 		${MAGENTA}[${CYAN}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${CYAN}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${CYAN}33${MAGENTA}]${BLUE} Github
 		${MAGENTA}[${CYAN}34${MAGENTA}]${BLUE} Airbnb
 
-		${CYAN}[${WHITE}99${CYAN}]${GREEN} About         ${CYAN}[${GREEN}00${CYAN}]${GREEN} Exit
+		${CYAN}[${RED}99${CYAN}]${GREEN} About         ${CYAN}[${RED}00${CYAN}]${GREEN} Exit
 
 	EOF
 	
