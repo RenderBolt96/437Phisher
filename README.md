@@ -3,7 +3,7 @@
   <p><i>A beginners friendly, Automated phishing tool with 30+ types that are easy to use.</i></p>
   <p><i> Update V1 : Mega Phishing Tool created & added with premium design >_< </i></p>
   <p align="center">
-
+  <p align="center">
 ### Features
 - Latest and Updated Login Pages
 - Mask URL Support 
