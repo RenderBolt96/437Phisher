@@ -5,7 +5,7 @@
   <p align="center">
 
 ### Features
-- Latest and Updated Login Pages.
+- Latest and Updated Login Pages
 - Mask URL Support 
 - Beginners Friendly
 - Tunneling Options
