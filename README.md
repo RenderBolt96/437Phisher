@@ -18,16 +18,15 @@
 ### Screenshots
 
 #### Title Screen:
-![image](https://github.com/RenderBolt96/437Phisher/blob/fe84f1fd862dcaea3bb987f3af573778994ec36d/Screenshots/Untitled%20design_20240510_223723_0000.png)
 
 #### Menu:
 ![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
 
+#### Share the Generated Link and Grab Details:
+![image](Screenshots/Screenshot_20240511_112922_Termux.jpg)
+
 #### Grabbed Details:
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
-#### Share the Link and Grab Details:
-![image](Screenshots/Screenshot_20240511_113213_Termux.jpg)
-
 
 
 ### Installation
