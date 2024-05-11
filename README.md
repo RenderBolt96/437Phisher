@@ -66,7 +66,7 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 ```
 <h2 align="center">Screenshots</h2>
 
->align="center">Menu<
+<p align="center">Menu</p>
 ![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
 
 #### Share the Generated Link(s) and Grab Details:
