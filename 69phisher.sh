@@ -450,24 +450,24 @@ main_menu() {
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
-		${RED}[${WHITE}01${RED}]${BLUE} Facebook      ${RED}[${WHITE}11${RED}]${BLUE} Twitch       ${RED}[${WHITE}21${RED}]${BLUE} DeviantArt
-		${RED}[${WHITE}02${RED}]${BLUE} Instagram     ${RED}[${WHITE}12${RED}]${BLUE} Pinterest    ${RED}[${WHITE}22${RED}]${BLUE} Badoo
-		${RED}[${WHITE}03${RED}]${BLUE} Google        ${RED}[${WHITE}13${RED}]${BLUE} Snapchat     ${RED}[${WHITE}23${RED}]${BLUE} Origin
-		${RED}[${WHITE}04${RED}]${BLUE} Microsoft     ${RED}[${WHITE}14${RED}]${BLUE} Linkedin     ${RED}[${WHITE}24${RED}]${BLUE} DropBox	
-		${RED}[${WHITE}05${RED}]${BLUE} Netflix       ${RED}[${WHITE}15${RED}]${BLUE} Ebay         ${RED}[${WHITE}25${RED}]${BLUE} Yahoo		
-		${RED}[${WHITE}06${RED}]${BLUE} Paypal        ${RED}[${WHITE}16${RED}]${BLUE} Quora        ${RED}[${WHITE}26${RED}]${BLUE} Wordpress
-		${RED}[${WHITE}07${RED}]${BLUE} Steam         ${RED}[${WHITE}17${RED}]${BLUE} Protonmail   ${RED}[${WHITE}27${RED}]${BLUE} Yandex			
-		${RED}[${WHITE}08${RED}]${BLUE} Twitter       ${RED}[${WHITE}18${RED}]${BLUE} Spotify      ${RED}[${WHITE}28${RED}]${BLUE} StackoverFlow
-		${RED}[${WHITE}09${RED}]${BLUE} Playstation   ${RED}[${WHITE}19${RED}]${BLUE} Reddit       ${RED}[${WHITE}29${RED}]${BLUE} Vk
-		${RED}[${WHITE}10${RED}]${BLUE} Tiktok        ${RED}[${WHITE}20${RED}]${BLUE} Adobe        ${RED}[${WHITE}30${RED}]${BLUE} XBOX
-		${RED}[${WHITE}31${RED}]${BLUE} Mediafire     ${RED}[${WHITE}32${RED}]${BLUE} Gitlab       ${RED}[${WHITE}33${RED}]${BLUE} Github
-		${RED}[${WHITE}34${RED}]${BLUE} Airbnb
+		${MAGENTA}[${WHITE}01${MAGENTA}]${BLUE} Facebook      ${MAGENTA}[${WHITE}11${MAGENTA}]${BLUE} Twitch       ${MAGENTA}[${WHITE}21${MAGENTA}]${BLUE} DeviantArt
+		${MAGENTA}[${WHITE}02${MAGENTA}]${BLUE} Instagram     ${MAGENTA}[${WHITE}12${MAGENTA}]${BLUE} Pinterest    ${MAGENTA}[${WHITE}22${MAGENTA}]${BLUE} Badoo
+		${MAGENTA}[${WHITE}03${MAGENTA}]${BLUE} Google        ${MAGENTA}[${WHITE}13${MAGENTA}]${BLUE} Snapchat     ${MAGENTA}[${WHITE}23${MAGENTA}]${BLUE} Origin
+		${MAGENTA}[${WHITE}04${MAGENTA}]${BLUE} Microsoft     ${MAGENTA}[${WHITE}14${MAGENTA}]${BLUE} Linkedin     ${MAGENTA}[${WHITE}24${MAGENTA}]${BLUE} DropBox	
+		${MAGENTA}[${WHITE}05${MAGENTA}]${BLUE} Netflix       ${MAGENTA}[${WHITE}15${MAGENTA}]${BLUE} Ebay         ${MAGENTA}[${WHITE}25${MAGENTA}]${BLUE} Yahoo		
+		${MAGENTA}[${WHITE}06${MAGENTA}]${BLUE} Paypal        ${MAGENTA}[${WHITE}16${MAGENTA}]${BLUE} Quora        ${MAGENTA}[${WHITE}26${MAGENTA}]${BLUE} Wordpress
+		${MAGENTA}[${WHITE}07${MAGENTA}]${BLUE} Steam         ${MAGENTA}[${WHITE}17${MAGENTA}]${BLUE} Protonmail   ${MAGENTA}[${WHITE}27${MAGENTA}]${BLUE} Yandex			
+		${MAGENTA}[${WHITE}08${MAGENTA}]${BLUE} Twitter       ${MAGENTA}[${WHITE}18${MAGENTA}]${BLUE} Spotify      ${MAGENTA}[${WHITE}28${MAGENTA}]${BLUE} StackoverFlow
+		${MAGENTA}[${WHITE}09${MAGENTA}]${BLUE} Playstation   ${MAGENTA}[${WHITE}19${MAGENTA}]${BLUE} Reddit       ${MAGENTA}[${WHITE}29${MAGENTA}]${BLUE} Vk
+		${MAGENTA}[${WHITE}10${MAGENTA}]${BLUE} Tiktok        ${MAGENTA}[${WHITE}20${MAGENTA}]${BLUE} Adobe        ${MAGENTA}[${WHITE}30${MAGENTA}]${BLUE} XBOX
+		${MAGENTA}[${WHITE}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${WHITE}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${WHITE}33${MAGENTA}]${BLUE} Github
+		${MAGENTA}[${WHITE}34${MAGENTA}]${BLUE} Airbnb
 
-		${RED}[${WHITE}99${RED}]${GREEN} About         ${RED}[${WHITE}00${RED}]${GREEN} Exit
+		${CYAN}[${WHITE}99${CYAN}]${GREEN} About         ${CYAN}[${WHITE}00${CYAN}]${GREEN} Exit
 
 	EOF
 	
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${CYAN}[${WHITE}-${CYAN}]${GREEN} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
