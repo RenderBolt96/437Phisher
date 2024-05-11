@@ -89,12 +89,12 @@ EOF
 ## Small Banner
 banner_small() {
 	cat <<- "EOF"
-${MAGENTA}		                     ,,
-${MAGENTA}		     __            o-°°|\_____/)
-${MAGENTA}		(___()'`;           \_/|_)     )
-${MAGENTA}		/,    /`  437Phisher   \  __  / 
-${MAGENTA}		\\"--\\ Respect Etanie (_/ (_/  		
-${MAGENTA}  ${RED}Version : 1.0
+		                     ,,
+		     __            o-°°|\_____/)
+		(___()'`;           \_/|_)     )
+		/,    /`  437Phisher   \  __  / 
+		\\"--\\ Respect Etanie (_/ (_/  		
+  						Version : 1.0
 	EOF
 }
 
