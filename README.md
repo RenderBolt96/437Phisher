@@ -90,6 +90,8 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 
 It only demonstrates "how phishing works". <b>You shall not misuse the information to gain unauthorized access to someones social media</b>. However you may try out this at your own risk.</i>
 
+<b>YOU WILL BE THE ONE HELD RESPONSIBLE FOR YOUR ACTIONS, SO IF YOU GET IN TROUBLE AND USE THIS FOR ILLEGAL ACTIVITIES, THE PUNISHMENTS ARE ON YOU, SO WOMP WOMP BECAUSE I AM FULLY PROTECTED FROM THE PUNISHMENTS OF <i>YOUR</i> ACTIONS!!!</b>.
+
 ##
 
 
