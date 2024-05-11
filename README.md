@@ -26,7 +26,7 @@
 #### Grabbed Details:
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
 #### Share the Link and Grab Details:
-![image](https://user-images.githubusercontent.com/68991993/209860605-5bf5b052-b05d-4780-9217-4350398cfc11.png)
+![image](Screenshots/Screenshot_20240511_113213_Termux.jpg)
 
 
 
