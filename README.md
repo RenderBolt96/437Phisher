@@ -29,19 +29,49 @@
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
 
 
-### Installation #####(these steps explain the process, starting from when termux is FIRST installed):
+### Installation(copy and paste the commands):
+#####(these steps explain the process, starting from when termux is FIRST installed)
 
-#### Share the Generated Link and Grab Details:
+#### Upgrade Your Packages:
 ```sh
-$ pkg update && pkg upgrade
-$ git clone https://github.com/RenderBolt96/437Phisher.git
+apt upgrade
+```
+#### Install PHP, CURL, and WGET Dependencies(DO IN ORDER!!!):
+```sh
+pkg install php
+```
+```sh
+pkg install curl
+```
+```sh
+pkg install wget
+```
+#### Install GIT Dependency:
+```sh
+pkg install git
+```
+#### Update ALL Packages AGAIN:
+```sh
+apt update && apt upgrade
+```
+#### Install 437Phisher Repository:
+```sh
+git clone https://github.com/RenderBolt96/437Phisher.git
+```
+#### Set Up 437Phisher(DO IN ORDER!!!):
+```sh
+git clone https://github.com/RenderBolt96/437Phisher.git
+```
+```sh
+git clone https://github.com/RenderBolt96/437Phisher.git
+```
+```sh
+git clone https://github.com/RenderBolt96/437Phisher.git
+```
+```sh
+git clone https://github.com/RenderBolt96/437Phisher.git
 ```
 
-```sh
-$ cd 437Phisher
-$ chmod 777 69phisher.sh
-$ bash 69phisher.sh
-```
 - ### Dependencies
 **`437Phisher`** requires following programs to run properly - 
 - `php`
