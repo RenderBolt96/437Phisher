@@ -202,11 +202,11 @@ about() {
 		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
 		${CYAN}Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
 
-		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
+		${MAGENTA}[${WHITE}00${MAGENTA}]${GREEN} Main Menu     ${MAGENTA}[${WHITE}99${MAGENTA}]${RED} Exit
 
 	EOF
 
-	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${BLUE}[${WHITE}-${BLUE}]${GREEN} Select an option : ${MAGENTA}"
 
 	case $REPLY in 
 		99)
@@ -274,7 +274,7 @@ capture_data() {
 
 
 ## DON'T COPY PASTE WITHOUT CREDIT DUDE :')
-## Credits HTR-TECH AKSHAY-ARJUN
+## Credits HTR-TECH and AKSHAY-ARJUN
 
 ## Start Cloudflared
 start_cloudflared() { 
@@ -319,10 +319,10 @@ tunnel_menu() {
 site_facebook() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} Fake Security Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Facebook Messenger Login Page
+		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Traditional Login Page
+		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Advanced Voting Poll Login Page
+		${MAGENTA}[${CYAN}03${MAGENTA}]${BLUE} Fake Security Login Page
+		${MAGENTA}[${CYAN}04${MAGENTA}]${BLUE} Facebook Messenger Login Page
 
 	EOF
 
@@ -355,10 +355,10 @@ site_facebook() {
 site_instagram() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Auto Followers Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} 1000 Followers Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Blue Badge Verify Login Page
+		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Traditional Login Page
+		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Auto Followers Login Page
+		${MAGENTA}[${CYAN}03${MAGENTA}]${BLUE} 1000 Followers Login Page
+		${MAGENTA}[${CYAN}04${MAGENTA}]${BLUE} Blue Badge Verify Login Page
 
 	EOF
 
@@ -391,9 +391,9 @@ site_instagram() {
 site_gmail() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Gmail Old Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Gmail New Login Page
-		${RED}[${WHITE}03${RED}]${ORANGE} Advanced Voting Poll
+		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Gmail Old Login Page
+		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Gmail New Login Page
+		${MAGENTA}[${CYAN}03${MAGENTA}]${BLUE} Advanced Voting Poll
 
 	EOF
 
@@ -422,8 +422,8 @@ site_gmail() {
 site_vk() {
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
-		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
+		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Traditional Login Page
+		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Advanced Voting Poll Login Page
 
 	EOF
 
@@ -448,22 +448,22 @@ site_vk() {
 main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
+		${BLUE}[${MAGENTA}::${BLUE}]${RED} Select An Attack For Your Victim ${BLUE}[${MAGENTA}::${BLUE}]${RED}
 
-		${MAGENTA}[${WHITE}01${MAGENTA}]${BLUE} Facebook      ${MAGENTA}[${WHITE}11${MAGENTA}]${BLUE} Twitch       ${MAGENTA}[${WHITE}21${MAGENTA}]${BLUE} DeviantArt
-		${MAGENTA}[${WHITE}02${MAGENTA}]${BLUE} Instagram     ${MAGENTA}[${WHITE}12${MAGENTA}]${BLUE} Pinterest    ${MAGENTA}[${WHITE}22${MAGENTA}]${BLUE} Badoo
-		${MAGENTA}[${WHITE}03${MAGENTA}]${BLUE} Google        ${MAGENTA}[${WHITE}13${MAGENTA}]${BLUE} Snapchat     ${MAGENTA}[${WHITE}23${MAGENTA}]${BLUE} Origin
-		${MAGENTA}[${WHITE}04${MAGENTA}]${BLUE} Microsoft     ${MAGENTA}[${WHITE}14${MAGENTA}]${BLUE} Linkedin     ${MAGENTA}[${WHITE}24${MAGENTA}]${BLUE} DropBox	
-		${MAGENTA}[${WHITE}05${MAGENTA}]${BLUE} Netflix       ${MAGENTA}[${WHITE}15${MAGENTA}]${BLUE} Ebay         ${MAGENTA}[${WHITE}25${MAGENTA}]${BLUE} Yahoo		
-		${MAGENTA}[${WHITE}06${MAGENTA}]${BLUE} Paypal        ${MAGENTA}[${WHITE}16${MAGENTA}]${BLUE} Quora        ${MAGENTA}[${WHITE}26${MAGENTA}]${BLUE} Wordpress
-		${MAGENTA}[${WHITE}07${MAGENTA}]${BLUE} Steam         ${MAGENTA}[${WHITE}17${MAGENTA}]${BLUE} Protonmail   ${MAGENTA}[${WHITE}27${MAGENTA}]${BLUE} Yandex			
-		${MAGENTA}[${WHITE}08${MAGENTA}]${BLUE} Twitter       ${MAGENTA}[${WHITE}18${MAGENTA}]${BLUE} Spotify      ${MAGENTA}[${WHITE}28${MAGENTA}]${BLUE} StackoverFlow
-		${MAGENTA}[${WHITE}09${MAGENTA}]${BLUE} Playstation   ${MAGENTA}[${WHITE}19${MAGENTA}]${BLUE} Reddit       ${MAGENTA}[${WHITE}29${MAGENTA}]${BLUE} Vk
-		${MAGENTA}[${WHITE}10${MAGENTA}]${BLUE} Tiktok        ${MAGENTA}[${WHITE}20${MAGENTA}]${BLUE} Adobe        ${MAGENTA}[${WHITE}30${MAGENTA}]${BLUE} XBOX
-		${MAGENTA}[${WHITE}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${WHITE}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${WHITE}33${MAGENTA}]${BLUE} Github
-		${MAGENTA}[${WHITE}34${MAGENTA}]${BLUE} Airbnb
+		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Facebook      ${MAGENTA}[${CYAN}11${MAGENTA}]${BLUE} Twitch       ${MAGENTA}[${CYAN}21${MAGENTA}]${BLUE} DeviantArt
+		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Instagram     ${MAGENTA}[${CYAN}12${MAGENTA}]${BLUE} Pinterest    ${MAGENTA}[${CYAN}22${MAGENTA}]${BLUE} Badoo
+		${MAGENTA}[${CYAN}03${MAGENTA}]${BLUE} Google        ${MAGENTA}[${CYAN}13${MAGENTA}]${BLUE} Snapchat     ${MAGENTA}[${CYAN}23${MAGENTA}]${BLUE} Origin
+		${MAGENTA}[${CYAN}04${MAGENTA}]${BLUE} Microsoft     ${MAGENTA}[${CYAN}14${MAGENTA}]${BLUE} Linkedin     ${MAGENTA}[${CYAN}24${MAGENTA}]${BLUE} DropBox	
+		${MAGENTA}[${CYAN}05${MAGENTA}]${BLUE} Netflix       ${MAGENTA}[${CYAN}15${MAGENTA}]${BLUE} Ebay         ${MAGENTA}[${CYAN}25${MAGENTA}]${BLUE} Yahoo		
+		${MAGENTA}[${CYAN}06${MAGENTA}]${BLUE} Paypal        ${MAGENTA}[${CYAN}16${MAGENTA}]${BLUE} Quora        ${MAGENTA}[${CYAN}26${MAGENTA}]${BLUE} Wordpress
+		${MAGENTA}[${CYAN}07${MAGENTA}]${BLUE} Steam         ${MAGENTA}[${CYAN}17${MAGENTA}]${BLUE} Protonmail   ${MAGENTA}[${CYAN}27${MAGENTA}]${BLUE} Yandex			
+		${MAGENTA}[${CYAN}08${MAGENTA}]${BLUE} Twitter       ${MAGENTA}[${CYAN}18${MAGENTA}]${BLUE} Spotify      ${MAGENTA}[${CYAN}28${MAGENTA}]${BLUE} StackoverFlow
+		${MAGENTA}[${CYAN}09${MAGENTA}]${BLUE} Playstation   ${MAGENTA}[${CYAN}19${MAGENTA}]${BLUE} Reddit       ${MAGENTA}[${CYAN}29${MAGENTA}]${BLUE} Vk
+		${MAGENTA}[${CYAN}10${MAGENTA}]${BLUE} Tiktok        ${MAGENTA}[${CYAN}20${MAGENTA}]${BLUE} Adobe        ${MAGENTA}[${CYAN}30${MAGENTA}]${BLUE} XBOX
+		${MAGENTA}[${CYAN}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${CYAN}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${CYAN}33${MAGENTA}]${BLUE} Github
+		${MAGENTA}[${CYAN}34${MAGENTA}]${BLUE} Airbnb
 
-		${CYAN}[${WHITE}99${CYAN}]${GREEN} About         ${CYAN}[${WHITE}00${CYAN}]${GREEN} Exit
+		${CYAN}[${WHITE}99${CYAN}]${GREEN} About         ${CYAN}[${GREEN}00${CYAN}]${GREEN} Exit
 
 	EOF
 	
