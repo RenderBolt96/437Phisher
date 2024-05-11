@@ -27,7 +27,7 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 
 <h2 align="center">OR Do the Step-by-Step Installation(copy/paste commands)</h2>
 
-###IF IT EVER STOPS PROCESSING THE COMMAND, JUST CLICK THE <i>enter</i> BUTTON AND IT WILL CONTINUE!!!
+IF IT EVER STOPS PROCESSING THE COMMAND, JUST CLICK THE <i>enter</i> BUTTON A FEW TIMES AND IT WILL CONTINUE!!!
 
 #### Upgrade Your Packages:
 ```sh
