@@ -27,8 +27,7 @@
 #### Grabbed Details:
 ![image](https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg)
 
-
-### Step-by-Step Installation(copy and paste the commands one-by-one!):
+<h2 align="center">Step-by-Step Installation(copy and paste the commands one-by-one!)</h2>
 #####(these steps explain the installation process, starting from when termux is FIRST installed)
 
 #### Upgrade Your Packages:
@@ -70,12 +69,11 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 ```sh
 git clone https://github.com/RenderBolt96/437Phisher.git
 ```
-<h2 align="center"></h2>
-## Or Do ALL In ONE COMMAND(if it ever stops:
+<h2 align="center">Do ALL In ONE COMMAND</h2>
 ```sh
 git clone https://github.com/RenderBolt96/437Phisher.git
 ```
-<h2 align="center"></h2>
+
 - ### Dependencies
 **`437Phisher`** requires following programs to run properly - 
 - `php`
