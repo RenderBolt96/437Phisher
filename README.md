@@ -18,12 +18,10 @@
 
 <h2 align="center">Screenshots</h2>
 
-#### Title Screen:
-
 #### Menu:
 ![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
 
-#### Share the Generated Link and Grab Details:
+#### Share the Generated Link(s) and Grab Details:
 ![image](Screenshots/Screenshot_20240511_112922_Termux.jpg)
 
 #### Grabbed Details:
