@@ -9,9 +9,9 @@
   <p>🛠<i>Update V1 : Mega Phishing Tool created & added with premium design</i>🛠</p>
 
   <p align="center">
-    <a href="https://github.com/Akshay-Arjun/69phisher/issues/new?assignees=&labels=bug&title=Report Bug">Report Bug</a>
+    <a href="https://github.com/RenderBolt96/437phisher/issues/new?assignees=&labels=bug&title=Report Bug">Report Bug</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/Akshay-Arjun/69phisher/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/RenderBolt96/437phisher/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
   <a href="https://github.com/RenderBolt96/437phisher/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/RenderBolt96/437phisher">
   <a href="https://github.com/RenderBolt96/437phisher/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/RenderBolt96/437phisher"></a>
@@ -33,7 +33,7 @@
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 
-> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
+> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 
 <h2 align="center">INSTALL ALL WITH ONE COMMAND</h2>
 
