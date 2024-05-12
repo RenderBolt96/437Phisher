@@ -8,8 +8,6 @@
   <p>😄<i>A beginners friendly, Automated phishing tool with 30+ types that are easy to use</i>😄</p>
   <p>🛠<i>Update V1 : Mega Phishing Tool created & added with premium design</i>🛠</p>
 
-
-
 ### Features
 - 📋Latest and Updated Login Pages📋
   - 📝Constantly Updated📝
