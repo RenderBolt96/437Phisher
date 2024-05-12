@@ -95,7 +95,7 @@ bash 437phisher.sh
 ![image](Screenshots/gen.-links-2-share(SS).png)
 
 #### Grabbed Details:
-![image]((https://github.com/RenderBolt96/437Phisher/blob/ca3bd5ae234b27078da6359fbdb0f1c11b6341ae/Screenshots/grabbed-details(SS).png))
+![image](Screenshots/grabbed-details(SS).png)
 
 ### Special Thanks :
 
