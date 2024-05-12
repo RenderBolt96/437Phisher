@@ -27,7 +27,7 @@
 <h2 align="center">INSTALL ALL WITH ONE COMMAND</h2>
 
 ```sh
-apt upgrade; pkg install php; pkg install curl; pkg install wget; pkg install git; apt update && apt upgrade; git clone https://github.com/RenderBolt96/437Phisher.git
+apt upgrade; pkg install php; pkg install curl; pkg install wget; pkg install git; apt update && apt upgrade; git clone https://github.com/RenderBolt96/437Phisher.git; cd 437Phisher; chmod 777 437phisher.sh; bash 437phisher.sh
 ```
 
 <h2 align="center">OR Do the Step-by-Step Installation(copy/paste commands)</h2>
