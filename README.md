@@ -92,7 +92,7 @@ bash 437phisher.sh
 ![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
 
 #### Share the Generated Link(s) and Grab Details:
-![image](Screenshots/Screenshot_20240511_112922_Termux.jpg)
+![image](Screenshots/gen.-links-2-share(SS).png)
 
 #### Grabbed Details:
 ![image]((https://github.com/RenderBolt96/437Phisher/blob/ca3bd5ae234b27078da6359fbdb0f1c11b6341ae/Screenshots/grabbed-details(SS).png))
