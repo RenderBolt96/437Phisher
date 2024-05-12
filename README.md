@@ -29,7 +29,7 @@
 - 🔎Tunneling Options🔎
   - Localhost (visit 127.0.0.1:8080)
   - Cloudflared (default and automated)
-> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
+> Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
