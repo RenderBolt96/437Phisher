@@ -84,11 +84,10 @@ bash 437phisher.sh
 ```sh
 bash 437phisher.sh
 ```
+[how-2-delte-437phisher(VIDEO).webm](https://github.com/RenderBolt96/437Phisher/assets/165334302/a997455c-ee9d-4b4b-9a2a-b21706652fd3)
 
-![video](Demonstrate Videos/how-2-delte-437phisher(VIDEO).webm)
 
 <h2 align="center">Screenshots</h2>
-
 
 #### Main Menu
 ![image](Screenshots/main-menu(SS).png)
