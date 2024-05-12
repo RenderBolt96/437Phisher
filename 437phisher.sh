@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 ##   437phisher 	: 	Automated Phishing Tool+
 ##   Author 	: 	RenderBolt
 ##   Version 	: 	1.0
@@ -79,7 +78,7 @@ ${CYAN} | || |_   |_ \   / / | |_) || |__   _  ___ | |__    ___  _ __
 ${CYAN} |__   _| ___) | / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
 ${CYAN}    |_|  |____/ /_/   | |    | | | || |\__ \| | | ||  __/| |   	
 ${CYAN}                      |_|    |_| |_||_||___/|_| |_| \___||_|   
-${CYAN} ${RED}Version : 1.0
+${CYAN} ${RED}Version : 1.0	${MAGENTA}Etanie is Beautiful
 
 ${RED}[${MAGENTA}-${RED}]${CYAN} The Title Will ONLY DISPLAY PROPERLY If The Screen Is Turned HORZONTALLY!!! ${WHITE}
 ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
