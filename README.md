@@ -84,12 +84,11 @@ bash 437phisher.sh
 ```sh
 bash 437phisher.sh
 ```
-#### Video Tutorials:
-  <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md"><img 
-  <p align="center">
-    <a href="https://github.com/RenderBolt96/437phisher/issues/new?assignees=&labels=bug&title=Report Bug">Installation Tutorials</a>
+<h2 align="center">Video Tutorials</h2>
+    <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20INSTALL%20437Phisher%20Tutorials.md">Installation Tutorials</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Deletion Tutorials</a>
+<h2 align="center"></h2>
 
 <h2 align="center">Screenshots</h2>
 
