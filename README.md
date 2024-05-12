@@ -84,13 +84,13 @@ bash 437phisher.sh
 ```sh
 bash 437phisher.sh
 ```
-#### Installation TUTORIAL Video:
-[how-2-install-437phisher(VIDEO).webm](https://github.com/RenderBolt96/437Phisher/assets/165334302/61b4e987-c696-4e19-837b-86281b9e5508)
-
-<h2 align="center">HOW TO DELTE 437PHISHER:</h2>
-
-[how-2-delte-437phisher(VIDEO).webm](https://github.com/RenderBolt96/437Phisher/assets/165334302/a997455c-ee9d-4b4b-9a2a-b21706652fd3)
-
+#### Video Tutorials:
+  <a href="https://github.com/RenderBolt96/437phisher/stargazers"><img alt="How to <b>INSTALL</b> 437Phisher Tutorial" src="https://img.shields.io/github/stars/RenderBolt96/437phisher">
+  <a href="https://github.com/RenderBolt96/437phisher/network"><img alt="How to DELETE <b>437Phisher</b> Tutorial" src="https://img.shields.io/github/forks/RenderBolt96/437phisher"></a>
+  <a href="https://github.com/RenderBolt96/437phisher/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/RenderBolt96/437phisher"></a>
+  <br/>
+</div>
+<br />
 <h2 align="center">Screenshots</h2>
 
 #### Main Menu
