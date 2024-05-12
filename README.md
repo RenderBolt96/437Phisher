@@ -95,7 +95,7 @@ bash 437phisher.sh
 ![image](Screenshots/Screenshot_20240511_112922_Termux.jpg)
 
 #### Grabbed Details:
-![image]([https://github.com/RenderBolt96/437Phisher/blob/63eb7c5f5265a78012d23fec21cf7497c2d314ca/Screenshot_20240510_221057_Termux.jpg](https://github.com/RenderBolt96/437Phisher/blob/ca3bd5ae234b27078da6359fbdb0f1c11b6341ae/Screenshots/grabbed-details(SS).png))
+![image]((https://github.com/RenderBolt96/437Phisher/blob/ca3bd5ae234b27078da6359fbdb0f1c11b6341ae/Screenshots/grabbed-details(SS).png))
 
 ### Special Thanks :
 
