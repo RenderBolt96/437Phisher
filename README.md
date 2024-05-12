@@ -87,9 +87,9 @@ bash 437phisher.sh
 
 <h2 align="center">Screenshots</h2>
 
-<p align="center">Menu</p>
 
-![image](Screenshots/Screenshot_20240511_112851_Termux.jpg)
+#### Main Menu
+![image](Screenshots/main-menu(SS).png)
 
 #### Share the Generated Link(s) and Grab Details:
 ![image](Screenshots/gen.-links-2-share(SS).png)
