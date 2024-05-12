@@ -72,17 +72,19 @@ git clone https://github.com/RenderBolt96/437Phisher.git
 ```
 #### Set Up 437Phisher(DO IN ORDER!!!):
 ```sh
-git clone https://github.com/RenderBolt96/437Phisher.git
+cd 437Phisher
 ```
 ```sh
-git clone https://github.com/RenderBolt96/437Phisher.git
+chmod 777 437phisher.sh
 ```
 ```sh
-git clone https://github.com/RenderBolt96/437Phisher.git
+bash 437phisher.sh
 ```
+## AFTER YOU SET IT UP FOR THE FIRST TIME, YOU WILL ONLY FROM THEN ON HAVE TO DO THIS COMMAND TO START IT!!!:
 ```sh
-git clone https://github.com/RenderBolt96/437Phisher.git
+bash 437phisher.sh
 ```
+
 <h2 align="center">Screenshots</h2>
 
 <p align="center">Menu</p>
