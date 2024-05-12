@@ -85,12 +85,12 @@ bash 437phisher.sh
 bash 437phisher.sh
 ```
 #### Video Tutorials:
-  <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md"><img alt="How to <b>INSTALL</b> 437Phisher Tutorial" src="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">
-  <a href="https://github.com/RenderBolt96/437phisher/network"><img alt="How to DELETE <b>437Phisher</b> Tutorial" src="https://img.shields.io/github/forks/RenderBolt96/437phisher"></a>
-  <a href="https://github.com/RenderBolt96/437phisher/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/RenderBolt96/437phisher"></a>
-  <br/>
-</div>
-<br />
+  <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md"><img 
+  <p align="center">
+    <a href="https://github.com/RenderBolt96/437phisher/issues/new?assignees=&labels=bug&title=Report Bug">Installation Tutorials</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Deletion Tutorials</a>
+
 <h2 align="center">Screenshots</h2>
 
 #### Main Menu
