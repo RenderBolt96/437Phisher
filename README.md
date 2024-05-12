@@ -84,8 +84,12 @@ bash 437phisher.sh
 ```sh
 bash 437phisher.sh
 ```
-[how-2-delte-437phisher(VIDEO).webm](https://github.com/RenderBolt96/437Phisher/assets/165334302/a997455c-ee9d-4b4b-9a2a-b21706652fd3)
+#### Installation TUTORIAL Video:
+[how-2-install-437phisher(VIDEO).webm](https://github.com/RenderBolt96/437Phisher/assets/165334302/61b4e987-c696-4e19-837b-86281b9e5508)
 
+<h2 align="center">HOW TO DELTE 437PHISHER:</h2>
+
+[how-2-delte-437phisher(VIDEO).webm](https://github.com/RenderBolt96/437Phisher/assets/165334302/a997455c-ee9d-4b4b-9a2a-b21706652fd3)
 
 <h2 align="center">Screenshots</h2>
 
