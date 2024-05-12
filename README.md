@@ -35,9 +35,9 @@
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 
 <h2 align="center">Video Tutorials</h2>
-    <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20INSTALL%20437Phisher%20Tutorials.md">Installation Tutorials</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Deletion Tutorials</a>
+     <h1 align="center"><a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20INSTALL%20437Phisher%20Tutorials.md">Installation Tutorials</a>
+     &nbsp;·&nbsp;
+     <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Deletion Tutorials</a></h1>
 <h2 align="center"></h2>
 
 <h2 align="center">INSTALL ALL WITH ONE COMMAND</h2>
