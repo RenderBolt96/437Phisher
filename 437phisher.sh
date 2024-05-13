@@ -82,7 +82,7 @@ ${CYAN} ${RED}Version : 1.0	${MAGENTA}Etanie is Beautiful
 
 ${RED}[${MAGENTA}-${RED}]${CYAN} The Title Will ONLY DISPLAY PROPERLY If The Screen Is Turned HORZONTALLY!!! ${WHITE}
 
-${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
+${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Render ${WHITE}
 EOF
 }
         
