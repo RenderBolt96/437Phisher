@@ -81,6 +81,7 @@ ${CYAN}                      |_|    |_| |_||_||___/|_| |_| \___||_|
 ${CYAN} ${RED}Version : 1.0	${MAGENTA}Etanie is Beautiful
 
 ${RED}[${MAGENTA}-${RED}]${CYAN} The Title Will ONLY DISPLAY PROPERLY If The Screen Is Turned HORZONTALLY!!! ${WHITE}
+
 ${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by RenderBolt ${WHITE}
 EOF
 }
@@ -462,7 +463,7 @@ main_menu() {
 		${MAGENTA}[${CYAN}31${MAGENTA}]${BLUE} Mediafire     ${MAGENTA}[${CYAN}32${MAGENTA}]${BLUE} Gitlab       ${MAGENTA}[${CYAN}33${MAGENTA}]${BLUE} Github
 		${MAGENTA}[${CYAN}34${MAGENTA}]${BLUE} Airbnb
 
-		${CYAN}[${RED}99${CYAN}]${MAGENTA} About         ${CYAN}[${RED}00${CYAN}]${MAGENTA} Exit
+		${CYAN}[${RED}99${CYAN}]${RED} About         ${CYAN}[${RED}00${CYAN}]${RED} Exit
 
 	EOF
 	
