@@ -38,12 +38,12 @@ fi
 
 ## Script termination
 exit_on_signal_SIGINT() {
-    { printf "\n\n%s\n\n" "${RED}[${BLUE}!${RED}]${RED} Program Interrupted." 2>&1; reset_color; }
+    { printf "\n\n%s\n\n" "${RED}[${BLUE}!${RED}]${RED} Program Interrupted.(use the command (bash 437phisher.sh) to start up 437Phisher again!)" 2>&1; reset_color; }
     exit 0
 }
 
 exit_on_signal_SIGTERM() {
-    { printf "\n\n%s\n\n" "${RED}[${BLUE}!${RED}]${RED} Program Terminated. Thank you for using & Happy Hacking" 2>&1; reset_color; }
+    { printf "\n\n%s\n\n" "${RED}[${BLUE}!${RED}]${RED} Program Terminated. Thank you for using & Happy Hacking!(use the command (bash 437phisher.sh) to start up 437Phisher again!)" 2>&1; reset_color; }
     exit 0
 }
 
