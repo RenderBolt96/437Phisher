@@ -46,10 +46,10 @@
 apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pkg install git -y; apt update && apt upgrade -y; git clone https://github.com/RenderBolt96/437Phisher.git; cd 437Phisher; chmod 777 437phisher.sh; bash 437phisher.sh
 ```
 #### Dependencies
-- php
-- curl
-- wget
-- git
+- **`php`**
+- **`curl`**
+- **`wget`**
+- **`git`**
 
 <b>THESE WILL ALL <i>AUTOMATICALLY</i> INSTALL WHEN YOU DO THE COMMAND!</b>
 
