@@ -26,7 +26,7 @@ href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Stars" 
 href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Last Updated-2024-red?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-brightgreen?style=for-the-badge&logo=github"></a>
 <a
-href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightblue?style=for-the-badge&logo=gnu"></a>
+href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-lightblue?style=for-the-badge&logo=gnu"></a>
 <a
 href="https://youtu.be/xvFZjo5PgG0?si=kK0j-JbbDIOC9KJ5"><img title="Free Discord Nitro" src="https://img.shields.io/badge/Free Discord Nitro Cause Why Not-Claim-hotpink?style=for-the-badge&logo=discord"></a>
 
