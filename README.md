@@ -80,9 +80,11 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 - [**Akshay-Arjun**](https://github.com/Akshay-Arjun)
 
 ### Support Me
+
 <p align="center">
+<a href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Youtube" src="https://img.shields.io/badge/Youtube-red?style=for-the-badge&logo=youtube"></a>
 <a
-href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Youtube" src="https://img.shields.io/badge-Youtube-0-red?style=for-the-badge&logo=youtube"></a>
+href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Youtube" src="https://img.shields.io/badge/Youtube-red?style=for-the-badge&logo=youtube"></a>
 </p>
 
 ### Disclaimer
