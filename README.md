@@ -23,7 +23,7 @@ href="https://github.com/RenderBolt96/437phisher/network"><img title="Forks" src
 <a
 href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Github Stars" src="https://img.shields.io/badge/Github Stars-5-blue?style=for-the-badge&logo=github"></a>
 <a
-href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
+href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Last Updated-2024-red?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-blue?style=for-the-badge&logo=github"></a>
 
 > Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
@@ -78,6 +78,10 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 
 - [**htr-tech**](https://github.com/htr-tech)
 - [**Akshay-Arjun**](https://github.com/Akshay-Arjun)
+
+###Support Me
+<a
+href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Forks" src="https://img.shields.io/badge-Youtube-0-red?style=for-the-badge&logo=youtube"></a>
 
 ### Disclaimer
 
