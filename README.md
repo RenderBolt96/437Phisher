@@ -15,16 +15,18 @@
   </p>
 
 <p align="center">
-<a href="https://github.com/RenderBolt96/437Phisher"><img title="Version" src="https://img.shields.io/badge/Version-1.0-yellow?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/RenderBolt96/437Phisher"><img title="Version" src="https://img.shields.io/badge/Version-1.0-cyan?style=for-the-badge&logo=github"></a>
 <a
-href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
+href="https://github.com/RenderBolt96/437Phisher/pulls"><img title="Pull Requests" src="https://img.shields.io/badge/Pull Requests-0-darkblue?style=for-the-badge&logo=github"></a>
 <a
-href="https://github.com/RenderBolt96/437phisher/network"><img title="Forks" src="https://img.shields.io/badge/Forks-0-purple?style=for-the-badge&logo=github"></a>
+href="https://github.com/RenderBolt96/437Phisher/issues"><img title="Issues" src="https://img.shields.io/badge/Issues-0-purple?style=for-the-badge&logo=github"></a>
 <a
-href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Github Stars" src="https://img.shields.io/badge/Github Stars-5-blue?style=for-the-badge&logo=github"></a>
+href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Stars" src="https://img.shields.io/badge/Stars-0-yellow?style=for-the-badge&logo=github"></a>
 <a
 href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Last Updated-2024-red?style=for-the-badge&logo=github"></a>
-<a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-cyan?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-brightgreen?style=for-the-badge&logo=github"></a>
+<a
+href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-magenta?style=for-the-badge&logo=gnu"></a>
 
 > Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 </p>
