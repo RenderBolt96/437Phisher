@@ -24,10 +24,10 @@
 <a href="https://github.com/RenderBolt96/437Phisher"><img title="Version" src="https://img.shields.io/badge/Version-1.0-yellow?style=for-the-badge&logo="></a>
 <a
 href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
-<a href="Supports"><img title="Suppor" src="https://img.shields.io/badge/Termux-red?style=for-the-badge&logo=termux"></a>
-<a href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
+<a
+href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-blue?style=for-the-badge&logo=github"></a>
-
+> Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 </p>
 
 
@@ -41,7 +41,6 @@ href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="
 - 🔎Tunneling Options🔎
   - Localhost (visit 127.0.0.1:8080)
   - Cloudflared (default and automated)
-> Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
