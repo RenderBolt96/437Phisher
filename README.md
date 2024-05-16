@@ -86,7 +86,9 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 <a
 href="https://venmo.com/u/RenderBolt96"><img title="Venmo" src="https://img.shields.io/badge/Venmo-lightblue?style=for-the-badge&logo=venmo"></a>
 <a
-href="https://discord.com/invite/Sq94UhMYbE"><img title="Discord" src="https://img.shields.io/badge/Venmo-purple?style=for-the-badge&logo=discord"></a>
+href="https://discord.com/invite/Sq94UhMYbE"><img title="Discord" src="https://img.shields.io/badge/Discord-darkblue?style=for-the-badge&logo=discord"></a>
+<a
+href="https://guns.lol/RenderBolt987"><img title="RenderBolt" src="https://img.shields.io/badge/RenderBolt-purple?style=for-the-badge&logo=guns.lol"></a>
 </p>
 
 ### Disclaimer
