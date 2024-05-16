@@ -82,7 +82,7 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 ###Support Me
 
 <a
-href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Forks" src="https://img.shields.io/badge-Youtube-0-red?style=for-the-badge&logo=youtube"></a>
+href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Youtube" src="https://img.shields.io/badge-Youtube-0-red?style=for-the-badge&logo=youtube"></a>
 
 ### Disclaimer
 
