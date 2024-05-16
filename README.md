@@ -22,8 +22,8 @@
 
 <p align="center">
 <a href="https://github.com/RenderBolt96/437Phisher"><img title="Version" src="https://img.shields.io/badge/Version-1.0-yellow?style=for-the-badge&logo="></a>
-<a href="https://github.com/RenderBolt96/437Phisher"><img title="Version" src="https://img.shields.io/badge/Supports-blue?style=for-the-badge&logo="></a>
-<a href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
+<a
+href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
 <a href=""><img title="Python" src="https://img.shields.io/badge/Termux-red?style=for-the-badge&logo=termux"></a>
 <a href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-blue?style=for-the-badge&logo=github"></a>
