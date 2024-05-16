@@ -34,10 +34,11 @@
 ### Creatable Phishing Links
 - Facebook, Instagram, Google, Microsoft, Netflix, PayPal, Steam, Twitter, Playstation, Tiktok, Twitch, Pinterest, Snapchat, LinkedIn, Ebay, Quora, Protonmail, Spotify, Reddit, Adobe, DeviantArt, Badoo, Origin, Dropbox, Yahoo, Wordprogress, Yandex, StackoverFlow, Vk, XBOX, Github, Gitlab, Mediafire, Airbnb
 
+### Video Tutorials
 - <a
-href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20INSTALL%20437Phisher%20Tutorials.md">Video Installation Tutorials</a>
+href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20INSTALL%20437Phisher%20Tutorials.md">Installation Tutorials</a>
      &nbsp;·&nbsp;
-- <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Video Deletion Tutorials</a>
+- <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Deletion Tutorials</a>
 
 
 <h2 align="center">INSTALLATION COMMAND</h2>
