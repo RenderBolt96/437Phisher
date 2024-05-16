@@ -40,7 +40,7 @@
      <a href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How%20to%20DELETE%20437Phisher%20Tutorial.md">Deletion Tutorials</a></h1>
 
 
-<h2 align="center">INSTALL ALL WITH ONE COMMAND</h2>
+<h2 align="center">INSTALLATION COMMAND</h2>
 
 ```sh
 apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pkg install git -y; apt update && apt upgrade -y; git clone https://github.com/RenderBolt96/437Phisher.git; cd 437Phisher; chmod 777 437phisher.sh; bash 437phisher.sh
@@ -50,6 +50,7 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 - curl
 - wget
 - git
+
 <b>THESE WILL ALL <i>AUTOMATICALLY</i> INSTALL WHEN YOU DO THE COMMAND!</b>
 
 <h2 align="center">Screenshots</h2>
