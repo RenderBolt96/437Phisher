@@ -24,7 +24,7 @@ href="https://github.com/RenderBolt96/437phisher/network"><img title="Forks" src
 href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Github Stars" src="https://img.shields.io/badge/Github Stars-5-blue?style=for-the-badge&logo=github"></a>
 <a
 href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Last Updated-2024-red?style=for-the-badge&logo=github"></a>
-<a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-blue?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-cyan?style=for-the-badge&logo=github"></a>
 
 > Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 </p>
@@ -84,7 +84,7 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 <p align="center">
 <a href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Youtube" src="https://img.shields.io/badge/Youtube-red?style=for-the-badge&logo=youtube"></a>
 <a
-href="https://youtube.com/@renderbolt6950?si=zGyOEjnJyjpcs1ib"><img title="Youtube" src="https://img.shields.io/badge/Youtube-red?style=for-the-badge&logo=youtube"></a>
+href="https://venmo.com/u/RenderBolt96"><img title="Venmo" src="https://img.shields.io/badge/Venmo-lightblue?style=for-the-badge&logo=venmo"></a>
 </p>
 
 ### Disclaimer
