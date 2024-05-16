@@ -29,8 +29,6 @@ href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shie
 > Supported Platforms : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Linux`**, **`Fedora`**
 </p>
 
-
-
 ### Features
 - 📋Latest and Updated Login Pages📋
   - 📝Constantly Updated📝
