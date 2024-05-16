@@ -55,6 +55,10 @@ href="https://github.com/RenderBolt96/437Phisher/blob/main/Tutorial%20Videos/How
 ```sh
 apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pkg install git -y; apt update && apt upgrade -y; git clone https://github.com/RenderBolt96/437Phisher.git; cd 437Phisher; chmod 777 437phisher.sh; bash 437phisher.sh
 ```
+#### WHEN INSTALLING WITH TERMUX, IF IT STOPS PROCESSING THE COMMAND AND IS STUCK AT THIS, THEN JUST CLICK THE ENTER BUTTON A FEW TIMES AND IT SHOULD RESUME(If it DOESN'T RESUME, Create an Issue and I Will Do My Best to Help You!!!):
+
+![image](https://github.com/RenderBolt96/437Phisher/tree/0367809a9e83cdfe91148844d159c07650322130/Screenshots)
+
 ### Dependencies
 - **`php`**
 - **`curl`**
