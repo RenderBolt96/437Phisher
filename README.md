@@ -13,12 +13,6 @@
     &nbsp;·&nbsp;
     <a href="https://github.com/RenderBolt96/437phisher/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
-  <a href="https://github.com/RenderBolt96/437phisher/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/RenderBolt96/437phisher">
-  <a href="https://github.com/RenderBolt96/437phisher/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/RenderBolt96/437phisher"></a>
-  <a href="https://github.com/RenderBolt96/437phisher/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/RenderBolt96/437phisher"></a>
-  <br/>
-</div>
-<br />
 
 <p align="center">
 <a href="https://github.com/RenderBolt96/437Phisher"><img title="Version" src="https://img.shields.io/badge/Version-1.0-yellow?style=for-the-badge&logo="></a>
@@ -27,7 +21,7 @@ href="https://github.com/RenderBolt96/437Phisher/blob/main/LICENSE"><img title="
 <a
 href="https://github.com/RenderBolt96/437phisher/network"><img title="Forks" src="https://img.shields.io/badge/Forks-0-purple?style=for-the-badge&logo=forks"></a>
 <a
-href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Github Stars" src="https://img.shields.io/badge/Github Stars-5-blue?style=for-the-badge&logo=stars"></a>
+href="https://github.com/RenderBolt96/437phisher/stargazers"><img title="Github Stars" src="https://img.shields.io/badge/Github Stars-5-blue?style=for-the-badge&logo=star"></a>
 <a
 href="https://github.com/RenderBolt96"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/RenderBolt96"><img title="Author" src="https://img.shields.io/badge/Author-RenderBolt96-blue?style=for-the-badge&logo=github"></a>
