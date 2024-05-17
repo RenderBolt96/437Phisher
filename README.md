@@ -61,7 +61,18 @@ apt upgrade -y; pkg install php -y; pkg install curl -y; pkg install wget -y; pk
 
 ![image](Screenshots/TermuxStuckError.jpg)
 
-### Dependencies
+<h2 align="center">Startup Command After Installation Done</h2>
+
+```sh
+cd 437Phisher; bash 437phisher.sh
+```
+
+#### (only have to do this command from now on after you do the Installation once)
+
+
+<h2 align="center">Dependencies</h2>
+
+
 - **`php`**
 - **`curl`**
 - **`wget`**
