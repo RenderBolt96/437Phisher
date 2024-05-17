@@ -295,7 +295,7 @@ start_cloudflared() {
 	cldflr_link1=${cldflr_link#https://}
 	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 1 : ${MAGENTA}$cldflr_link"
 	echo -e "\n${RED}[${BLUE}-${RED}]${BLUE} URL 2 : ${MAGENTA}$mask@$cldflr_link1"
-	echo -e "\n If you are getting Argo Tunnel Error in the above links,please wait atleast 1 minute for the site to come alive."
+	echo -e "\n If you are getting Argo Tunnel Error in the above links,please wait at least 1 minute for the site to come alive."
 	capture_data
 }
 
